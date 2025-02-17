@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "New Amsterdam";
+    src: url('/path-to-your-font/new-amsterdam.woff2') format('woff2'),
+         url('/path-to-your-font/new-amsterdam.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.custom-title {
+    font-size: 6rem; /* Desired size */
+    font-weight: 400; /* Ensure consistency with your font */
+}
+
+
+.custom-title::first-letter {
+    color: green; /* Change to your desired color */
+}
+
+
+.search-input {
+    width: 70%; /* Full width */
+    padding: 1rem; /* Increase padding */
+    font-size: 1.25rem; /* Increase font size */
+    border: 1px solid #d1d5db; /* Border color */
+    border-radius: 0.5rem; /* Rounded corners */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    outline: none; /* Remove default outline */
+    transition: border-color 0.3s ease; /* Transition effect */
+  }
+  
+  .search-input:focus {
+    border-color: #3b82f6; /* Blue border on focus */
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.4); /* Focus shadow */
+  }
+
+  /* Map.css */
+/* Map.css */
+.map-container {
+    width: 100%;
+    height: 100%; /* or a fixed height like 600px */
+    position: center; /* Required for proper positioning */
+    border: 2px solid #53e264; /* Outline color */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional: add shadow for depth */
+    border-radius: 0px; /* Match rounded corners */
+  }
+
+  .special-label {
+    font-family: "New Amsterdam"; /* Change to your desired font */
+    font-size: 1.5rem; /* Adjust the size */
+    color: #ffffff; /* Change the color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Optional: add a shadow for effect */
+  }
